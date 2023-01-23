@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kogs403"
+version = "0.1.0"
+description = "Course work related to the course KOGS403."
+authors = ["Giovanni Misitano <giovanni.a.misitano@jyu.fi>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.12"
+numpy = "^1.24.1"
+matplotlib = "^3.6.3"
+pandas = "^1.5.3"
+scipy = "^1.10.0"
+jupyterlab = "^3.5.2"
+pyreadstat = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
